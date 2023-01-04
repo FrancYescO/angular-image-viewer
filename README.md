@@ -19,7 +19,7 @@ A configurable Angular image viewer component, compatible with Angular 9
 To use default configuration, simply import the ImageViewerModule into your module, like so:
 
 ```javascript
-import { AngularImageViewerModule } from "@clarivate/angular-image-viewer";
+import { AngularImageViewerModule } from "@francyesco/angular-image-viewer";
 
 @NgModule({
   //...
@@ -109,8 +109,8 @@ handleEvent(event: customImageEvent) {
 
 ## Local setup for this branch:
 
-* Add respective version of this component. yarn add @clarivate/angular-image-viewer.
-* yarn serve-lib is to compile your changes in projects\angular-image-viewer and it will update in dist folder. But to reflect in UI, update projects\angular-image-viewer\ng-package.json file dest to node_module location. "dest": "../../node_modules/@clarivate/angular-image-viewer",
+* Add respective version of this component. yarn add @francyesco/angular-image-viewer.
+* yarn serve-lib is to compile your changes in projects\angular-image-viewer and it will update in dist folder. But to reflect in UI, update projects\angular-image-viewer\ng-package.json file dest to node_module location. "dest": "../../node_modules/@francyesco/angular-image-viewer",
 * yarn start to get the application up.
 
 

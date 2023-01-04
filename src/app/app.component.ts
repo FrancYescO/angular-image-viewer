@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ImageViewerConfig, CustomImageEvent } from '@clarivate/angular-image-viewer';
+import { ImageViewerConfig, CustomImageEvent } from '@francyesco/angular-image-viewer';
 
 
 @Component({
